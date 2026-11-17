@@ -26,14 +26,6 @@ Sistema web para gerenciar o acervo de uma biblioteca. Ele cadastra **livros** e
 - XAMPP (Apache + MySQL/MariaDB) com PHP 7.4 ou superior
 - Navegador atualizado
 
-## Como instalar (XAMPP)
-
-1. Copie a pasta do projeto para `htdocs` (exemplo: `C:\xampp\htdocs\biblioteca`).
-2. Abra o painel do XAMPP e inicie o **Apache** e o **MySQL**.
-3. Acesse `http://localhost/phpmyadmin`, abra a aba **SQL**, cole o conteúdo de `banco/biblioteca.sql` e clique em **Executar**. Isso cria o banco `biblioteca_db`, as tabelas e alguns dados de exemplo.
-4. Abra `http://localhost/biblioteca/` no navegador.
-
-Se o seu MySQL usar usuário ou senha diferentes de `root` / (vazia), ajuste o arquivo `config/database.php`.
 
 ## Banco de dados
 
@@ -75,19 +67,3 @@ biblioteca/
     └── assets/                # css/, js/ e img/
 ```
 
-## Como o sistema funciona
-
-Toda requisição entra por `public/index.php`, no formato `index.php?pagina=livros&acao=editar&id=3`:
-
-1. O **roteador** escolhe o controller e o método pelo mapa de rotas. Ações que alteram dados (`criar`, `atualizar`, `excluir`) só aceitam POST.
-2. O **controller** valida os dados e chama o **model**.
-3. O **model** executa o SQL com *prepared statements* (protege contra SQL Injection).
-4. A **view** mostra o resultado; toda saída passa por `e()` (protege contra XSS).
-
-## Diferenciais deste projeto
-
-- Tema próprio (biblioteca) com identidade visual, painel e etiquetas coloridas.
-- Estrutura de pastas separada em `config`, `app` e `public`, com URL base automática (sem caminhos fixos).
-- Banco com campos extras (status, exemplares, ISBN, datas) e restrição de exclusão.
-- Busca, filtros, validação e mensagens de aviso.
-- Exclusão por POST com confirmação.
