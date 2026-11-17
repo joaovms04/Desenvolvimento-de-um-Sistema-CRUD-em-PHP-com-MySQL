@@ -3,12 +3,12 @@
 > **Disciplina:** Linguagem e Técnicas de Programação
 > **Trabalho:** Sistema CRUD completo em PHP com MySQL (Parte 02)
 > **Integrantes do grupo:**
->       26008802-2 - João Marchezan
-        26013906-2 - Lucas Gabriel
-        26010098-2 - Rafael José Dos Santos
-        26011979-2 - Rafael.K
-        26008950-2 - Vinicius de Medeiros
-        26009345-2 - vithor do carmo
+>       **26008802-2 - João Marchezan
+>       **26013906-2 - Lucas Gabriel
+>       **26010098-2 - Rafael José Dos Santos
+>       **26011979-2 - Rafael.K
+>       **26008950-2 - Vinicius de Medeiros
+>       **26009345-2 - vithor do carmo
 
 Sistema web para gerenciar o acervo de uma biblioteca. Ele cadastra **livros** e **gêneros**, e cada livro pertence a um gênero (relacionamento 1:N). O projeto usa PHP com PDO, MySQL e uma organização em camadas (MVC simplificado).
 
