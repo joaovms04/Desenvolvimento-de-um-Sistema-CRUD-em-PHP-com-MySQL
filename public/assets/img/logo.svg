@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Biblioteca Viva">
+    <rect width="48" height="48" rx="12" fill="#e9a23b"/>
+    <rect x="10" y="12" width="7" height="24" rx="1.5" fill="#144249"/>
+    <rect x="19" y="9" width="7" height="27" rx="1.5" fill="#1d5c63"/>
+    <rect x="28" y="14" width="7" height="22" rx="1.5" fill="#ffffff"/>
+    <path d="M8 39h32" stroke="#144249" stroke-width="3" stroke-linecap="round"/>
+</svg>
