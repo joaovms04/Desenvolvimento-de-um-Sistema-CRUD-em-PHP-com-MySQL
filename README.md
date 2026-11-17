@@ -2,7 +2,7 @@
 
 > **Disciplina:** Linguagem e Técnicas de Programação
 > **Trabalho:** Sistema CRUD completo em PHP com MySQL (Parte 02)
-> **Integrantes do grupo:**
+> - **Integrantes do grupo:**
 > - 26008802-2 - João Marchezan
 > - 26013906-2 - Lucas Gabriel
 > - 26010098-2 - Rafael José Dos Santos
